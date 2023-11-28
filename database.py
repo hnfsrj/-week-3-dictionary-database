@@ -2,7 +2,6 @@
 
 
 database={} #the dictionary database
-running = True #quits the program when falsified
 
 
 
@@ -99,7 +98,7 @@ def deleter(name): #deletes a student from the database
 
 
 
-while(running):
+while(True):
     task = input("""
     Enter:
     1-To add a student
